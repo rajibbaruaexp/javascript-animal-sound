@@ -19,6 +19,7 @@
   }
 
   .animals {
+    grid-template-columns: repeat(3, 1fr);
     width: auto;
     grid-gap: 5px;
     padding: 5px;
@@ -53,6 +54,7 @@
   }
 
   .animals {
+    grid-template-columns: repeat(3, 1fr);
     width: auto;
     grid-gap: 5px;
     padding: 5px;
