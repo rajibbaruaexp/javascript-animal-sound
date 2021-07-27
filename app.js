@@ -6,5 +6,7 @@ animals.forEach((animal) => {
 function animalSound(animal) {
   const sound = animal.getAttribute("data-sound");
   audio.src = sound;
+  audio.preload = "auto";
+  audio.currentTime = 0;
   audio.play();
 }
