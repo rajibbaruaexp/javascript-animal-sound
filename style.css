@@ -63,7 +63,7 @@ img {
 }
 
 .author {
-  display: none;
+  display: none !important;
   padding: 5px 0;
   position: sticky;
   background: #fff;
